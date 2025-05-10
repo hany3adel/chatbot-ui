@@ -30,3 +30,9 @@ module.exports = withBundleAnalyzer(
     }
   })
 )
+
+module.exports = {
+  experimental: {
+    metadataBase: new URL('https://chatbot-pxim8tk0m-hany3adels-projects.vercel.app'), // استبدل هذا بالرابط الصحيح
+  },
+};
